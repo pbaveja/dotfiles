@@ -1,0 +1,9 @@
+# Quickly serve the current directory as HTTP
+alias serve='python3 -m http.server' # Or python -m SimpleHTTPServer
+
+# Open current folder with sublime text
+alias stt="subl . -a"
+
+# Get External IP / Internet Speed
+alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
+alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
